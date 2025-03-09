@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.isi-suratjalan {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid(--white-alpha-40);
+    backdrop-filter: var(--backdrop-filter);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    padding: 2rem;
+    height: 700px;
+    margin-left: 22%;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+.judul {
+    color: black;
+    margin-left: 22%;
+    font-family: Inter;
+    margin-top: 10%
+}
+.form-container .tabel{
+    margin-top: 2%;
+}
+
+.flex-btn .produk{
+    padding: 8px 12px;
+    background-color: #52CD0F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 88%;
+}
+
+.produk:hover {
+    opacity: 0.8;
+}
+
+
+.search-box input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: #1C0C77;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: rgba(231, 226, 226, 0.877);
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table th:nth-child(1), table td:nth-child(1) {
+    width: 5%; /* Kolom pertama */
+}
+table th:nth-child(2), table td:nth-child(2) {
+    width: 10%; /* Kolom kedua */
+}
+table th:nth-child(3), table td:nth-child(3) {
+    width: 20%; /* Kolom ketiga */
+}
+table th:nth-child(4), table td:nth-child(4) {
+    width: 10%; /* Kolom kempat */
+}
+table th:nth-child(5), table td:nth-child(5) {
+    width: 10%; /* Kolom kelima */
+}
+table th:nth-child(6), table td:nth-child(6) {
+    width: 20%; /* Kolom keenam */
+}
+table th:nth-child(7), table td:nth-child(7) {
+    width: 20%; /* Kolom ketujuh */
+}
+
+form {
+    display: inline-flex; /* Flexbox untuk menyusun tombol dalam baris */
+    justify-content: center; /* Menyusun tombol di tengah secara horizontal */
+    gap: 10px; /* Jarak antar tombol */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.btn-primary {
+    background-color: #FAA200;
+    color: white;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}

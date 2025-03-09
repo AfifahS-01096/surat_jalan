@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}
+
+.sidebar{
+    width: 260px;
+    position: fixed;
+    left: o;
+    top: 0;
+    height: 100%;
+    background-color: #1C0C77;
+    
+}
+.main-content{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;width: 100%;
+    margin-left: 19.3%;
+    padding: 1rem;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3);
+    
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5opx;
+}
+
+.main-content .logo{
+    margin-left: 3%;
+}
+.navbar .logo2 .admin{
+    margin-right: 50px;
+}
+
+.sidebar .list-item {
+    width: 212px;
+    margin-bottom: .1rem;
+    padding-left: .3rem;
+    margin-top: 10%;
+    display: flex;
+        align-items: center;
+        border-radius: 8px;
+        box-sizing:content-box;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 20px;
+}
+     
+.sidebar .list-item:hover{
+    background: #ff9900;
+    transition: all ease-in .2s
+}
+.sidebar .icon{
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+}
+.sidebar .deskripsi{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+}

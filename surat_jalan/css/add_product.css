@@ -1,0 +1,76 @@
+.form-container .heading h1{
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+}
+
+.form-container .input-field{
+    margin: center;
+    margin-left: 3%;
+    margin-top: 2%;
+    
+}
+
+.form-container .flex-btn{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.flex-btn a{
+    text-align: center;
+}
+.form-container form .box{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid(--white-alpha-40);
+    backdrop-filter: var(--backdrop-filter);
+    box-shadow: var(--box-shadow);
+    width: 90%;
+    border-radius: .2rem;
+    margin: 0;
+    font-family: normal;
+    font-size: 17px;
+    padding: 1rem;
+    
+}
+.form-container .btn{
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+
+.btn{
+    background-color: #1C0C77;
+    border: 2px solid(--white-alpha-40);
+    backdrop-filter: var(--backdrop-filter);
+    box-shadow: var(--box-shadow);
+    text-transform: capitalize;
+    color: white;
+    padding: .5rem 2rem;
+    border-radius: 1.5rem;
+    font-size: 15px;
+    cursor: pointer;
+    position: flex;
+    
+}
+.btn:hover{
+    background-color: #4f3eb1;
+}
+.form-container form p {
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-bottom: 3%;
+}
+.form-container{
+    background-color:rgba(227, 226, 231, 0.877);
+    border: 2px solid(--white-alpha-40);
+    backdrop-filter: var(--backdrop-filter);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem;
+    width: 60%;
+    height: 100%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
